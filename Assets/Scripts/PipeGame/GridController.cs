@@ -36,23 +36,36 @@ public class GridController : MonoBehaviour
     {
         PipeType[] tilesTypes = { 
             PipeType.NO_PIPE,    PipeType.NO_PIPE,    PipeType.NO_PIPE,          PipeType.NO_PIPE,           PipeType.NO_PIPE,          PipeType.NO_PIPE,         PipeType.NO_PIPE,
-            PipeType.NO_PIPE,    PipeType.STREIGHT_V, PipeType.STREIGHT_V,       PipeType.STREIGHT_V,        PipeType.CORNER_RIGHT_DOWN,       PipeType.STREIGHT_H,      PipeType.END_PIPE,
-            PipeType.NO_PIPE,    PipeType.STREIGHT_V, PipeType.STREIGHT_V,       PipeType.STREIGHT_V,        PipeType.STREIGHT_V,       PipeType.STREIGHT_V,      PipeType.NO_PIPE,
-            PipeType.NO_PIPE,    PipeType.STREIGHT_V, PipeType.CORNER_TOP_RIGHT, PipeType.CORNER_RIGHT_DOWN, PipeType.CORNER_LEFT_TOP, PipeType.CORNER_LEFT_TOP, PipeType.NO_PIPE,
-            PipeType.NO_PIPE,    PipeType.STREIGHT_V, PipeType.STREIGHT_V,       PipeType.STREIGHT_V,        PipeType.STREIGHT_V,       PipeType.STREIGHT_V,      PipeType.NO_PIPE,
-            PipeType.START_PIPE, PipeType.STREIGHT_H, PipeType.STREIGHT_H,       PipeType.CORNER_LEFT_TOP,        PipeType.STREIGHT_V,       PipeType.STREIGHT_V,      PipeType.NO_PIPE,
+            PipeType.NO_PIPE,    PipeType.STREIGHT_H, PipeType.STREIGHT_H,       PipeType.STREIGHT_V,        PipeType.CORNER_RIGHT_DOWN,       PipeType.CORNER_LEFT_TOP,      PipeType.END_PIPE,
+            PipeType.NO_PIPE,    PipeType.CORNER_RIGHT_DOWN, PipeType.STREIGHT_V,       PipeType.STREIGHT_V,        PipeType.CORNER_LEFT_TOP,       PipeType.CORNER_LEFT_TOP,      PipeType.NO_PIPE,
+            PipeType.NO_PIPE,    PipeType.STREIGHT_H, PipeType.CORNER_TOP_RIGHT, PipeType.CORNER_RIGHT_DOWN, PipeType.STREIGHT_H, PipeType.CORNER_LEFT_TOP, PipeType.NO_PIPE,
+            PipeType.NO_PIPE,    PipeType.CORNER_TOP_RIGHT, PipeType.CORNER_RIGHT_DOWN,       PipeType.STREIGHT_V,        PipeType.STREIGHT_V,       PipeType.CORNER_RIGHT_DOWN,      PipeType.NO_PIPE,
+            PipeType.START_PIPE, PipeType.CORNER_TOP_RIGHT, PipeType.STREIGHT_H,       PipeType.CORNER_LEFT_TOP,        PipeType.CORNER_LEFT_TOP,       PipeType.CORNER_LEFT_TOP,      PipeType.NO_PIPE,
             PipeType.NO_PIPE,    PipeType.NO_PIPE,    PipeType.NO_PIPE,          PipeType.NO_PIPE,           PipeType.NO_PIPE,          PipeType.NO_PIPE,         PipeType.NO_PIPE
             };
         grid = new GameObject[width, height];
-        for (int i = 0; i < width ; i++)
+        for (int i = 0; i < width; i++)
         {
-            for (int j = 0 ; j < height; j++)
+            for (int j = 0; j < height; j++)
             {
-                 
-                GameObject obj = null;
-                obj = GetComponent<PipeFactory>().createPipe(tilesTypes[j * height + height - 1 - i]);
-                obj.GetComponent<Pipe>().setPosition(new Vector2Int(i,j));
-                grid[i, j] = obj;
+                if (i == 0 || j == 0 || j == height - 1 || i == width - 1) {  
+                    GameObject obj = null;
+                    obj = GetComponent<PipeFactory>().createPipe(tilesTypes[j * height + height - 1 - i]);
+                    obj.GetComponent<Pipe>().setPosition(new Vector2Int(i,j));
+                    grid[i, j] = obj;
+                }
+            }
+        }
+        for (int i = 1; i < width - 1; i++)
+        {
+            for (int j = 1; j < height - 1; j++)
+            {
+                
+                    GameObject obj = null;
+                    obj = GetComponent<PipeFactory>().createPipe((PipeType)Random.Range(3,8));
+                    obj.GetComponent<Pipe>().setPosition(new Vector2Int(i, j));
+                    grid[i, j] = obj;
+                
             }
         }
     }
