@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: 1fe6b8c7b49bd90459522a4cc70790a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2019394840575452736
+    second: EndScreen_0
+  - first:
+      213: 5068747377397975591
+    second: EndScreen_1
+  - first:
+      213: -6875099398219916993
+    second: EndScreen_2
+  - first:
+      213: 444005579834844038
+    second: EndScreen_3
+  - first:
+      213: -3619539764854786228
+    second: EndScreen_4
+  - first:
+      213: -8055276067310128384
+    second: EndScreen_5
+  - first:
+      213: 1866583203009302338
+    second: EndScreen_6
+  - first:
+      213: -3697328542840222799
+    second: EndScreen_7
+  - first:
+      213: -6152894236452327995
+    second: EndScreen_8
+  - first:
+      213: 266683813091861100
+    second: EndScreen_9
+  - first:
+      213: 275728749595208914
+    second: EndScreen_10
+  - first:
+      213: -648282277351116028
+    second: EndScreen_11
+  - first:
+      213: -801160917611939950
+    second: EndScreen_12
+  - first:
+      213: 4514333260192965846
+    second: EndScreen_13
+  - first:
+      213: 2932166303775051496
+    second: EndScreen_14
+  - first:
+      213: 945166453712543038
+    second: EndScreen_15
+  - first:
+      213: -2714721709641984209
+    second: EndScreen_16
+  - first:
+      213: 3533582624168492897
+    second: EndScreen_17
+  - first:
+      213: 2493827788717762019
+    second: EndScreen_18
+  - first:
+      213: 3837767945995030721
+    second: EndScreen_19
+  - first:
+      213: -932621722364715048
+    second: EndScreen_20
+  - first:
+      213: 4480014969767187922
+    second: EndScreen_21
+  - first:
+      213: 6024317505013338810
+    second: EndScreen_22
+  - first:
+      213: -4148965912603017871
+    second: EndScreen_23
+  - first:
+      213: -5059953438683567557
+    second: EndScreen_24
+  - first:
+      213: -8821163604495682217
+    second: EndScreen_25
+  - first:
+      213: 4445957779648689227
+    second: EndScreen_26
+  - first:
+      213: -6888688145426866512
+    second: EndScreen_27
+  - first:
+      213: -3057290757336705135
+    second: EndScreen_28
+  - first:
+      213: -8811427437452386465
+    second: EndScreen_29
+  - first:
+      213: -5210049629734202936
+    second: EndScreen_30
+  - first:
+      213: -1052864043235167481
+    second: EndScreen_31
+  - first:
+      213: 1969894761247706993
+    second: EndScreen_32
+  - first:
+      213: -6297169994789581398
+    second: EndScreen_33
+  - first:
+      213: 1874528030469582067
+    second: EndScreen_34
+  - first:
+      213: 2893632687068368820
+    second: EndScreen_35
+  - first:
+      213: 8885261172211261289
+    second: EndScreen_36
+  - first:
+      213: 2070321779561458270
+    second: EndScreen_37
+  - first:
+      213: 1244681329456945394
+    second: EndScreen_38
+  - first:
+      213: 6287506458915802114
+    second: EndScreen_39
+  - first:
+      213: 7514462876624014619
+    second: EndScreen_40
+  - first:
+      213: 1552251982832507288
+    second: EndScreen_41
+  - first:
+      213: -164881831929171873
+    second: EndScreen_42
+  - first:
+      213: -2101791768992975381
+    second: EndScreen_43
+  - first:
+      213: 8758724951791877241
+    second: EndScreen_44
+  - first:
+      213: -6633867797075474791
+    second: EndScreen_45
+  - first:
+      213: -2958420675667740833
+    second: EndScreen_46
+  - first:
+      213: -1335563000569553554
+    second: EndScreen_47
+  - first:
+      213: 6221914650796919472
+    second: EndScreen_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EndScreen_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 310
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046a1c588e4560c10800000000000000
+      internalID: 2019394840575452736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 310
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72acff562eec75640800000000000000
+      internalID: 5068747377397975591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 287
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39999de58db690a0800000000000000
+      internalID: -6875099398219916993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 310
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683e850f8bc692600800000000000000
+      internalID: 444005579834844038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_4
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 310
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47fd61d2cfc4cdc0800000000000000
+      internalID: -3619539764854786228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_5
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 311
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00336407819e53090800000000000000
+      internalID: -8055276067310128384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 302
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f8417988f67e910800000000000000
+      internalID: 1866583203009302338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_7
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 310
+        width: 14
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb8812974370bcc0800000000000000
+      internalID: -3697328542840222799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_8
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 340
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cde5b79a478c9aa0800000000000000
+      internalID: -6152894236452327995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_9
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 311
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62efaad38373b300800000000000000
+      internalID: 266683813091861100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_10
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 321
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc2cfd36d593d300800000000000000
+      internalID: 275728749595208914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_11
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 310
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4033e4814b6d007f0800000000000000
+      internalID: -648282277351116028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_12
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 300
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29770d1e364b1e4f0800000000000000
+      internalID: -801160917611939950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_13
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 310
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d46883ae2226ae30800000000000000
+      internalID: 4514333260192965846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_14
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 310
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eec1eec7b521b820800000000000000
+      internalID: 2932166303775051496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 310
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3dd627c1e7ed1d00800000000000000
+      internalID: 945166453712543038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_16
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 310
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f279fb00dfe535ad0800000000000000
+      internalID: -2714721709641984209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_17
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 300
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f3e0accaec90130800000000000000
+      internalID: 3533582624168492897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_18
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 310
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e52585392bdb9220800000000000000
+      internalID: 2493827788717762019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_19
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 300
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c01a6f0d9d724530800000000000000
+      internalID: 3837767945995030721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_20
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 310
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df53a81c79ae03f0800000000000000
+      internalID: -932621722364715048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_21
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 239
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5d76df0e53c2e30800000000000000
+      internalID: 4480014969767187922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_22
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 232
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2dc744adcaa9350800000000000000
+      internalID: 6024317505013338810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_23
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 189
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17db7121c79eb66c0800000000000000
+      internalID: -4148965912603017871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_24
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 189
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3aef33082f67c9b0800000000000000
+      internalID: -5059953438683567557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_25
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 189
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7553e60307ee49580800000000000000
+      internalID: -8821163604495682217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 189
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44385e7b0733bd30800000000000000
+      internalID: 4445957779648689227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_27
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 212
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be136b21a67660a0800000000000000
+      internalID: -6888688145426866512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_28
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 189
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1975cd121425295d0800000000000000
+      internalID: -3057290757336705135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_29
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 189
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f158a3e6587b580800000000000000
+      internalID: -8811427437452386465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_30
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 189
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1998d377f22b7b0800000000000000
+      internalID: -5210049629734202936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_31
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 189
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703bf222bb97361f0800000000000000
+      internalID: -1052864043235167481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_32
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 189
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f821139d8765b10800000000000000
+      internalID: 1969894761247706993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_33
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 190
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad815ae045fb98a0800000000000000
+      internalID: -6297169994789581398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_34
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 190
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fce6a1ef49a30a10800000000000000
+      internalID: 1874528030469582067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_35
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 146
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf4b27099f382820800000000000000
+      internalID: 2893632687068368820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_36
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 146
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f1932c5f9ce4b70800000000000000
+      internalID: 8885261172211261289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_37
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 146
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ae38180b24bbc10800000000000000
+      internalID: 2070321779561458270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_38
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 146
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f897d4131ff54110800000000000000
+      internalID: 1244681329456945394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_39
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 146
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c86aecfc5b14750800000000000000
+      internalID: 6287506458915802114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_40
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 146
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dc8074c2cb84860800000000000000
+      internalID: 7514462876624014619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_41
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 146
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89990a644f4ba8510800000000000000
+      internalID: 1552251982832507288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_42
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 169
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5032f1f8d836bdf0800000000000000
+      internalID: -164881831929171873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_43
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 146
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be57559958fe4d2e0800000000000000
+      internalID: -2101791768992975381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_44
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 147
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cb7ec10fd3d8970800000000000000
+      internalID: 8758724951791877241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_45
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 146
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996c964e264cfe3a0800000000000000
+      internalID: -6633867797075474791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_46
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 169
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5737a2e11491f6d0800000000000000
+      internalID: -2958420675667740833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_47
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 147
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d95efe680277de0800000000000000
+      internalID: -1335563000569553554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndScreen_48
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 139
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba8c87e86ea85650800000000000000
+      internalID: 6221914650796919472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EndScreen_0: 2019394840575452736
+      EndScreen_1: 5068747377397975591
+      EndScreen_10: 275728749595208914
+      EndScreen_11: -648282277351116028
+      EndScreen_12: -801160917611939950
+      EndScreen_13: 4514333260192965846
+      EndScreen_14: 2932166303775051496
+      EndScreen_15: 945166453712543038
+      EndScreen_16: -2714721709641984209
+      EndScreen_17: 3533582624168492897
+      EndScreen_18: 2493827788717762019
+      EndScreen_19: 3837767945995030721
+      EndScreen_2: -6875099398219916993
+      EndScreen_20: -932621722364715048
+      EndScreen_21: 4480014969767187922
+      EndScreen_22: 6024317505013338810
+      EndScreen_23: -4148965912603017871
+      EndScreen_24: -5059953438683567557
+      EndScreen_25: -8821163604495682217
+      EndScreen_26: 4445957779648689227
+      EndScreen_27: -6888688145426866512
+      EndScreen_28: -3057290757336705135
+      EndScreen_29: -8811427437452386465
+      EndScreen_3: 444005579834844038
+      EndScreen_30: -5210049629734202936
+      EndScreen_31: -1052864043235167481
+      EndScreen_32: 1969894761247706993
+      EndScreen_33: -6297169994789581398
+      EndScreen_34: 1874528030469582067
+      EndScreen_35: 2893632687068368820
+      EndScreen_36: 8885261172211261289
+      EndScreen_37: 2070321779561458270
+      EndScreen_38: 1244681329456945394
+      EndScreen_39: 6287506458915802114
+      EndScreen_4: -3619539764854786228
+      EndScreen_40: 7514462876624014619
+      EndScreen_41: 1552251982832507288
+      EndScreen_42: -164881831929171873
+      EndScreen_43: -2101791768992975381
+      EndScreen_44: 8758724951791877241
+      EndScreen_45: -6633867797075474791
+      EndScreen_46: -2958420675667740833
+      EndScreen_47: -1335563000569553554
+      EndScreen_48: 6221914650796919472
+      EndScreen_5: -8055276067310128384
+      EndScreen_6: 1866583203009302338
+      EndScreen_7: -3697328542840222799
+      EndScreen_8: -6152894236452327995
+      EndScreen_9: 266683813091861100
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
