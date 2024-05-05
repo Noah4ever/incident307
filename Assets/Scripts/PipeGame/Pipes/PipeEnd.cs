@@ -6,6 +6,8 @@ public class PipeEnd : Pipe
 {
     void Start()
     {
+        init();
+        type = PipeType.END_PIPE;
         inDir = new Vector2Int(0, 0);
         outDir = new Vector2Int(0, 0);
     }

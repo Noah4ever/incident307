@@ -6,9 +6,10 @@ public class PipeCornerTopRight : Pipe
 {
     void Start()
     {
-        type = PipeType.CORNER_TOP_RIGHT;
+        init();
         inDir  = new Vector2Int(0, 1);
         outDir = new Vector2Int(1, 0);
+        type = PipeType.CORNER_TOP_RIGHT;
     }
     public override void startFillingFromTop()
     {

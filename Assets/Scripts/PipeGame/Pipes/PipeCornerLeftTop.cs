@@ -6,6 +6,7 @@ public class PipeCornerLeftTop : Pipe
 {
     void Start()
     {
+        init();
         type = PipeType.CORNER_LEFT_TOP;
         inDir = new Vector2Int(-1, 0);
         outDir = new Vector2Int(0, 1);

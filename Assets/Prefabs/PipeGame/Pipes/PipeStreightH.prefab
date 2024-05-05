@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3838683413763351616}
   - component: {fileID: 3650844140897340564}
   - component: {fileID: 3183007342478467057}
-  - component: {fileID: 6494442722022190231}
   m_Layer: 0
   m_Name: PipeStreightH
   m_TagString: Untagged
@@ -110,25 +109,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &6494442722022190231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6348552167718757104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5472573cd33d394438aaf10c816de1fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isFilling: 0
-  fillAmount: 0
-  fillingSpeed: 0.05
-  gridController: {fileID: 0}
-  type: 0
-  inDir: {x: 1, y: 0}
-  outDir: {x: -1, y: 0}
 --- !u!1 &7647940788943996299
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,6 +119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2637050019082761701}
   - component: {fileID: 3967428279128768392}
+  - component: {fileID: 4218122646449731021}
   m_Layer: 0
   m_Name: Goo
   m_TagString: Untagged
@@ -215,3 +196,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &4218122646449731021
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7647940788943996299}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c44e55b80325e4f459b3d213d9271d34, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

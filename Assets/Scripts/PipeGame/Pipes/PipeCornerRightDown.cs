@@ -6,6 +6,7 @@ public class PipeCornerRightDown : Pipe
 {
     void Start()
     {
+        init();
         type = PipeType.CORNER_RIGHT_DOWN;
         inDir  = Vector2Int.right;
         outDir = Vector2Int.down;

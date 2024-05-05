@@ -5,18 +5,6 @@ using UnityEngine;
 
 public class GridController : MonoBehaviour
 {
-    public float fillingSpeed = 0.05f;
-
-    public GameObject pipeCornerTopRight;
-    public GameObject pipeCornerRightDown;
-    public GameObject pipeCornerDownLeft;
-    public GameObject pipeCornerLeftTop;
-    public GameObject pipeStreightH;
-    public GameObject pipeStreightV;
-    public GameObject pipeNoPipe;
-    public GameObject pipeStart;
-    public GameObject pipeEnd;
-
     public GameObject cursor;
     // Width and height of the 2D array
     public int width;
@@ -25,18 +13,6 @@ public class GridController : MonoBehaviour
     private Vector2Int selection;
     // The 2D array of GameObjects
     public GameObject[,] grid;
-    public enum PipeType
-    {
-        NO_PIPE,
-        START_PIPE,
-        END_PIPE,
-        STREIGHT_H,
-        STREIGHT_V,
-        CORNER_TOP_RIGHT,
-        CORNER_RIGHT_DOWN,
-        CORNER_DOWN_LEFT,
-        CORNER_LEFT_TOP,
-    }
 
     void Start()
     {
@@ -74,44 +50,8 @@ public class GridController : MonoBehaviour
             {
                  
                 GameObject obj = null;
-                switch (tilesTypes[j * height + height - 1 - i])
-                {
-                    
-                    case PipeType.STREIGHT_H:
-                        obj = Instantiate(pipeStreightH, transform, true);
-                        break;
-                    case PipeType.STREIGHT_V:
-                        obj = Instantiate(pipeStreightV, transform, true);
-                        break;
-                    case PipeType.CORNER_TOP_RIGHT:
-                        obj = Instantiate(pipeCornerTopRight, transform, true);
-                        break;
-                    case PipeType.CORNER_RIGHT_DOWN:
-                        obj = Instantiate(pipeCornerRightDown, transform, true);
-                        break;
-                    case PipeType.CORNER_DOWN_LEFT:
-                        obj = Instantiate(pipeCornerDownLeft, transform, true);
-                        break;
-                    case PipeType.CORNER_LEFT_TOP:
-                        obj = Instantiate(pipeCornerLeftTop, transform, true);
-                        break;
-                    case PipeType.NO_PIPE:
-                        obj = Instantiate(pipeNoPipe, transform, true);
-                        break;
-                    case PipeType.START_PIPE:
-                        obj = Instantiate(pipeStart, transform, true);
-                        obj.GetComponent<Pipe>().startFillingFromTop();
-                        break;
-                    case PipeType.END_PIPE:
-                        obj = Instantiate(pipeEnd, transform, true);
-                        break;
-
-                    default:
-                        break;
-                }
+                obj = GetComponent<PipeFactory>().createPipe(tilesTypes[j * height + height - 1 - i]);
                 obj.GetComponent<Pipe>().setPosition(new Vector2Int(i,j));
-                obj.GetComponent<Pipe>().gridController = this;
-                obj.GetComponent<Pipe>().fillingSpeed = fillingSpeed;
                 grid[i, j] = obj;
             }
         }
