@@ -60,9 +60,8 @@ public class DockMoveController : MonoBehaviour
                     overlayImage.color = new Color(0, 1, 0, 1f);
                     loadingBar.sprite = loadingBarSprites[4];
                     Debug.Log("Docking complete");
+                    SceneManager.LoadScene("End");
                 }
-                if(timeLooking >= timeThreshold * 1.5f)
-                    SceneManager.LoadScene(1);
             }
             else
             {

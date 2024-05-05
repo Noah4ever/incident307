@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DockingGame.unity
     guid: a1eda4aa2351b0d43af9941946485ec4
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 3b4da4765b712954a988d0ad9e8dc90f
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
