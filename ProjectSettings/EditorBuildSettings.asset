@@ -6,6 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: fa019d6d5a3c8294799d9c8863e5cd8b
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/PipeGame.unity
+    guid: c4b36d94488d3a945855b28298f5bac5
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
