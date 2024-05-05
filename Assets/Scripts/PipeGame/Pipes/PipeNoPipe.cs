@@ -6,8 +6,10 @@ public class PipeNoPipe : Pipe
 {
     void Start()
     {
+        init();
         inDir  = new Vector2Int(0, 0);
         outDir = new Vector2Int(0, 0);
+        type = PipeType.NO_PIPE;
     }
     public override void startFillingFromTop()
     {

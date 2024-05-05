@@ -6,6 +6,7 @@ public class PipeStart : Pipe
 {
     void Start()
     {
+        init();
         inDir = new Vector2Int(0, 0);
         outDir = new Vector2Int(1, 0);
         type = PipeType.START_PIPE;

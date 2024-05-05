@@ -373,6 +373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1617768798}
   - component: {fileID: 1617768797}
+  - component: {fileID: 1617768799}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -392,16 +393,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a76a03fe25402841927b705058cf3e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fillingSpeed: 0.01
-  pipeCornerTopRight: {fileID: 6348552167718757104, guid: 8fc09ed237f66bf4594fec8ee5a25124, type: 3}
-  pipeCornerRightDown: {fileID: 6348552167718757104, guid: 8fc09ed237f66bf4594fec8ee5a25124, type: 3}
-  pipeCornerDownLeft: {fileID: 6348552167718757104, guid: d495644db7ac65945b226c674342989e, type: 3}
-  pipeCornerLeftTop: {fileID: 6348552167718757104, guid: e388846c8a2f9bf47934878165777ea4, type: 3}
-  pipeStreightH: {fileID: 6348552167718757104, guid: 5feb3ee980fa97845ad46281c2e1f0cb, type: 3}
-  pipeStreightV: {fileID: 6348552167718757104, guid: 387ea6ddb6c955144b5e6d9272fbf3c3, type: 3}
-  pipeNoPipe: {fileID: 6348552167718757104, guid: 4703e2d640c292546b015e59af3bfe3b, type: 3}
-  pipeStart: {fileID: 6348552167718757104, guid: a68b0079494c6bf4aba1ccb6c63a1928, type: 3}
-  pipeEnd: {fileID: 6348552167718757104, guid: 547cdad9dff193b44b0b0c6723add890, type: 3}
   cursor: {fileID: 247365082}
   width: 7
   height: 7
@@ -420,6 +411,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1617768799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617768796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73d3ac68e6ec9e14499dba46942214b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fillingSpeed: 0.005
+  pipeStreightHorizontal: {fileID: 6348552167718757104, guid: 5feb3ee980fa97845ad46281c2e1f0cb, type: 3}
+  pipeCornerTopRight: {fileID: 6348552167718757104, guid: e72876e22926bbe448bc0ad03b804248, type: 3}
+  pipeNoPipe: {fileID: 6348552167718757104, guid: 4703e2d640c292546b015e59af3bfe3b, type: 3}
+  pipeStart: {fileID: 6348552167718757104, guid: a68b0079494c6bf4aba1ccb6c63a1928, type: 3}
+  pipeEnd: {fileID: 6348552167718757104, guid: 547cdad9dff193b44b0b0c6723add890, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

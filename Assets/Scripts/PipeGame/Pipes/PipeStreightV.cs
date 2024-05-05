@@ -6,9 +6,10 @@ public class PipeStreightV : Pipe
 {
     void Start()
     {
-        type = PipeType.STREIGHT_V;
+        init();
         inDir  = new Vector2Int(0, 1);
         outDir = new Vector2Int(0, -1);
+        type = PipeType.STREIGHT_V;
     }
     public override void startFillingFromTop()
     {

@@ -6,6 +6,7 @@ public class PipeStreightH : Pipe
 {
     void Start()
     {
+        init();
         inDir  = new Vector2Int(-1, 0);
         outDir = new Vector2Int( 1, 0);
     }

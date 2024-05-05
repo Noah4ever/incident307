@@ -13,10 +13,18 @@ public class Pipe : MonoBehaviour
     protected Vector2Int gridPosition = new Vector2Int(0,0);
     public Vector2Int inDir = new Vector2Int(1,0);
     public Vector2Int outDir = new Vector2Int(-1,0);
+    public Animator animator;
 
-
+    protected void init()
+    {
+        if(animator == null) 
+        {
+            animator = transform.GetChild(0).gameObject.GetComponent<Animator>();
+        }
+    }
     void Start()
     {
+    init();
     inDir  = new Vector2Int( 1, 0);
     outDir = new Vector2Int(-1, 0);
     }
@@ -82,7 +90,11 @@ public class Pipe : MonoBehaviour
             fillAmount += fillingSpeed;
         }
         fillAmount = Mathf.Clamp(fillAmount, 0.0f, 1.0f);
-        GetComponent<Renderer>().material.color = Color.Lerp(new Color(1, 1, 1,1),new Color(0,1,0,1),fillAmount);
+        //GetComponent<Renderer>().material.color = Color.Lerp(new Color(1, 1, 1,1),new Color(0,1,0,1),fillAmount);
+        animator.Play("PipeGooAnimation", 0, fillAmount);
+        //animator.Play
+        Debug.Log(fillAmount);
+        //animator.speed = 0f;
         if (isFilling && fillAmount >= 1.0f)
         {
             startNextTile();
