@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 508bd4b6160d1ae4e8f9b30a3ee5ddd6
+guid: d9d69c351071d094dbfb6d525fdd0586
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: SpaceshipInOne
+  - name: StickyNoteDocking
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -130,9 +130,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 720
-      height: 720
-    spriteID: 6e429f992995e014095b9c0d0976b0e5
+      width: 256
+      height: 256
+    spriteID: 4e01bdf89d9b37644a6fddba76845b23
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,24 +144,24 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1672976081
-    name: SpaceshipInOne
+    guid: 620680902
+    name: StickyNoteDocking
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: SpaceshipInOne
+    - name: StickyNoteDocking
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
-        width: 720
-        height: 720
-      spriteId: 6e429f992995e014095b9c0d0976b0e5
+        width: 256
+        height: 256
+      spriteId: 4e01bdf89d9b37644a6fddba76845b23
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 720, y: 720}
+  canvasSize: {x: 256, y: 256}
